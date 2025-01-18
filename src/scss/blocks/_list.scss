@@ -5,7 +5,9 @@
   }
 
   &__link {
+    color: var(--color-blue);
     @include hover {
+      color: var(--color-ligth);
       box-shadow: var(--box-shadow);
     }
   }

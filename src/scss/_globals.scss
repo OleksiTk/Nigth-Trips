@@ -1,6 +1,7 @@
 @use "helpers" as *;
 
 body {
+  color: var(--color-ligth);
 }
 main {
   height: 100vh;

@@ -1,5 +1,7 @@
 @use "../helpers/index" as *;
 .main {
+}
+.background {
   position: relative;
   min-height: 100vh; /* Щоб фон займав всю висоту екрану */
   background: linear-gradient(

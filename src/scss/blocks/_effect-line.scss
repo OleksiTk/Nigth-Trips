@@ -1,0 +1,154 @@
+@use "../helpers/index" as *;
+.effect__line1 {
+  position: absolute;
+  background-color: var(--color-ligth);
+  top: 2%;
+  left: 90.5%;
+  z-index: 100;
+  width: rem(5);
+  height: rem(5);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line2 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 1%;
+  left: 76.7%;
+  z-index: 100;
+  width: rem(5);
+  height: rem(5);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line3 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 5%;
+  left: 76.8%;
+  z-index: 100;
+  width: rem(5);
+  height: rem(5);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line4 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 8.8%;
+  left: 76.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line5 {
+  position: absolute;
+  background-color: var(--color-ligth);
+  top: 19.6%;
+  left: 70.7%;
+  z-index: 100;
+  width: rem(26);
+  height: rem(2);
+  transform: rotate(145deg);
+  border-radius: 2%;
+  animation: blink 3s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line6 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 15%;
+  left: 50.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line7 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 11%;
+  left: 30.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line8 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 5%;
+  left: 20.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line9 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 10%;
+  left: 10.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line10 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 20%;
+  left: 90.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line11 {
+  position: absolute;
+  background-color: var(--color-ligth);
+  top: 22%;
+  left: 91.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 1s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line12 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 33%;
+  left: 88.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 6s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+.effect__line13 {
+  position: absolute;
+  background-color: var(--color-blue-ligth);
+  top: 50%;
+  left: 89.7%;
+  z-index: 100;
+  width: rem(4);
+  height: rem(4);
+  border-radius: 50%;
+  animation: blink 2s infinite; /* Анімація, яка триває 1 секунду і повторюється нескінченно */
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.7; /* Повна видимість */
+  }
+  50% {
+    opacity: 0; /* Повна прозорість */
+  }
+}

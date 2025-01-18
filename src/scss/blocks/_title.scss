@@ -1,0 +1,86 @@
+@use "../helpers/index" as *;
+.main {
+  position: relative;
+  min-height: 100vh; /* Щоб фон займав всю висоту екрану */
+  background: linear-gradient(
+      180deg,
+      rgba(1, 22, 39, 0),
+      rgb(1, 22, 39) 300.645%,
+      rgb(1, 22, 39) 70%
+    ),
+    url("/src/img/main/background.jpeg") no-repeat center center / cover fixed;
+
+  padding-top: rem(60);
+}
+.title {
+  padding-top: rem(150);
+  @include laptop {
+    padding-top: rem(120);
+  }
+  @include mobile {
+    padding-top: rem(80);
+  }
+  &__body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__name {
+    font-size: rem(120);
+    @include tablet {
+      font-size: rem(80);
+    }
+  }
+
+  &__subtitle {
+    padding-top: rem(14);
+  }
+
+  &__description {
+    padding-top: rem(50);
+    @include tablet {
+      padding-top: rem(20);
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mobile {
+      font-size: rem(11);
+    }
+  }
+
+  &__extra {
+    padding-top: rem(200);
+    @include laptop {
+      padding-top: rem(120);
+    }
+    @include tablet {
+      padding-top: rem(180);
+    }
+    display: flex;
+    justify-content: space-between;
+  }
+  &__scroll {
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: center center; /* Центруємо точку обертання */
+    transform: translate(80%, -25%) rotate(-90deg); /* Центруємо текст і обертаємо */
+    font-weight: 700;
+    cursor: pointer;
+    @include hover {
+      color: var(--color-blue);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 6%;
+      left: -120%;
+      border-radius: rem(10);
+      background-color: var(--color-blue-ligth);
+      width: rem(70);
+      height: rem(2);
+    }
+  }
+}

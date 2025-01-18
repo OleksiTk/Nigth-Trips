@@ -1,0 +1,35 @@
+@use "../helpers/index" as *;
+.header {
+  position: absolute; /* Встановлюємо sticky */
+  top: 0; /* Липне до верхньої частини екрана */
+  width: 100%;
+  z-index: 10; /* Шапка буде поверх інших елементів */
+  &__body {
+    padding-top: rem(74);
+  }
+
+  &__body-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    color: var(--color-ligth);
+    font-family: "Playfair Display";
+    @include hover {
+      color: var(--color-blue);
+    }
+  }
+
+  &__menu {
+  }
+}
+.dot {
+  &__blue {
+    color: var(--color-blue);
+  }
+}
+
+.burger-menu {
+}

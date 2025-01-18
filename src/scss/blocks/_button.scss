@@ -1,0 +1,27 @@
+@use "../helpers/index" as *;
+.button {
+  color: var(--color-ligth);
+  background-color: var(--color-blue-ligth);
+  border: none;
+  border-radius: rem(50);
+  position: relative;
+  @include hover {
+    box-shadow: 5px 15px 40px 0px rgba(0, 201, 224, 0.2);
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    background-color: var(--color-ligth) !important;
+    top: 50%;
+    right: -10%;
+    width: rem(30);
+    height: rem(3);
+    border-radius: rem(2);
+  }
+}
+.button-large {
+  padding: rem(20) rem(60);
+}
+.button-small {
+  padding: rem(20) rem(48);
+}

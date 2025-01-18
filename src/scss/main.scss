@@ -1,0 +1,14 @@
+@use "fonts";
+@use "./helpers/index";
+@use "globals";
+@use "variables";
+@use "normolazi";
+@use "utlis";
+//header
+@use "./blocks/header";
+@use "./blocks/burger-menu";
+@use "./blocks/button";
+@use "./blocks/menu";
+//main
+@use "./blocks/title";
+@use "./blocks/list";

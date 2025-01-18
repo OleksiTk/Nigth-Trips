@@ -1,0 +1,12 @@
+@use "../helpers/index" as *;
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: rem(30);
+  &__search {
+  }
+
+  &__button {
+  }
+}

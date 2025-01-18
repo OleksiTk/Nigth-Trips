@@ -1,0 +1,14 @@
+@use "helpers" as *;
+
+:root {
+  --color-ligth: #ffffff;
+  --color-blue: #41ead4;
+  --color-blue-ligth: #00c9e0;
+  ///////////////
+  --container-width: #{rem(1440)};
+  --container-padding-x: #{rem(13)};
+  ////////////////
+  --transition-duration: 0.2s;
+  //
+  --box-shadow: 5px 15px 40px 0px rgba(0, 201, 224, 0.2);
+}

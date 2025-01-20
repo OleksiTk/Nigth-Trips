@@ -1,0 +1,102 @@
+@use "../helpers/index" as *;
+.pick {
+  position: relative;
+  z-index: 2;
+
+  &__name {
+    display: flex;
+    align-items: center;
+    column-gap: rem(30);
+    justify-content: start;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    @include fluid-text(70, 40);
+  }
+
+  &__img {
+    color: var(--color-blue-ligth);
+    padding-top: rem(15);
+  }
+  &__subtitle {
+    padding-top: rem(15);
+  }
+
+  &__choose {
+    display: flex;
+  }
+}
+
+.list-page {
+  padding-top: rem(80);
+  &__item {
+    display: flex;
+    padding-left: rem(80);
+    justify-content: space-between;
+    column-gap: rem(210);
+    align-items: center;
+    @include laptop {
+      column-gap: rem(120);
+    }
+    @include tablet {
+      column-gap: rem(40);
+      padding-left: rem(50);
+    }
+    @include mobile {
+      padding-left: rem(100);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: rem(40);
+    }
+  }
+
+  &__link {
+    color: var(--nice-blue);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::after {
+      position: absolute;
+      content: "";
+      top: 170%;
+      left: -75%;
+      background-color: var(--nice-blue);
+      width: rem(335);
+      height: rem(4);
+      @include mobile {
+        background-color: var(--nice-blue);
+        width: rem(0);
+        height: rem(0);
+      }
+      @include laptop {
+        width: rem(250);
+      }
+      @include tablet {
+        width: rem(170);
+        transform: translate(20%, -50%); /* Центруємо лінію за її центром */
+      }
+    }
+    @include hover {
+      color: var(--color-blue);
+
+      &::after {
+        background-color: var(--color-blue);
+        transition-duration: var(--transition-duration);
+      }
+    }
+  }
+}
+
+.is-choose {
+  color: var(--color-blue);
+
+  &::after {
+    background-color: var(--color-blue);
+  }
+}

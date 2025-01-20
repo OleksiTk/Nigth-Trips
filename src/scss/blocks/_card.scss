@@ -1,0 +1,66 @@
+@use "../helpers/index" as *;
+.card {
+  padding-top: rem(70);
+  padding-inline: rem(200);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: rem(20);
+  @include laptop {
+    padding-inline: rem(100);
+  }
+
+  @include tablet {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-blue-black);
+    position: relative;
+    padding: rem(70) rem(75);
+  }
+
+  &__decotration {
+    position: absolute;
+    top: 16%;
+    left: 6%;
+    color: var(--color-blue-ligth);
+  }
+
+  &__title {
+    font-weight: 800;
+  }
+
+  &__subtitle {
+    padding-top: rem(20);
+    font-weight: 500;
+  }
+
+  &__photos {
+    padding-top: rem(20);
+    column-gap: rem(10);
+    display: flex;
+    align-items: center;
+  }
+
+  &__photos-img {
+    img {
+      border-radius: rem(10);
+    }
+  }
+
+  &__photos-postion {
+    font-weight: 800;
+  }
+
+  &__photos-name {
+    font-weight: 300;
+  }
+
+  &__photos-work {
+    font-weight: 300;
+  }
+}

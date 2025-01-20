@@ -1,0 +1,95 @@
+@use "../helpers/index" as *;
+
+.about-us {
+  display: flex;
+  padding-left: fluid(10, 5);
+  column-gap: fluid(50, 20);
+  padding-right: fluid(100, 40);
+
+  @include tablet {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: rem(50);
+  }
+  @include mobile {
+    justify-content: center;
+    align-items: center;
+  }
+  &__side {
+  }
+
+  &__aside {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-areas:
+      "img1 img2"
+      "img3 img4";
+  }
+
+  &__name {
+    position: absolute;
+    padding: rem(25) rem(20);
+    background-color: var(--color-ligth);
+    color: var(--color-back);
+    border-radius: rem(10);
+    top: 35%;
+    left: -8%;
+
+    @include laptop {
+      padding: rem(15) rem(10);
+      font-size: 11;
+    }
+    @include mobile {
+      padding: rem(5) rem(8);
+      font-size: 6;
+    }
+  }
+
+  &__name-blue {
+    color: var(--color-blue-ligth);
+  }
+
+  &__img1 {
+    grid-area: img1;
+    margin-left: rem(8);
+    @include laptop {
+      width: rem(230);
+    }
+  }
+
+  &__img2 {
+    grid-area: img2;
+    margin-bottom: rem(-10);
+    @include laptop {
+      width: rem(230);
+    }
+  }
+  &__img3 {
+    grid-area: img4;
+    @include laptop {
+      width: rem(230);
+    }
+  }
+  &__img4 {
+    grid-area: img3;
+    @include laptop {
+      width: rem(230);
+    }
+  }
+  &__decoration {
+    position: absolute;
+    top: 20%;
+    right: -9%;
+    color: var(--color-blue-ligth);
+
+    @include laptop {
+      right: -14%;
+    }
+    @include mobile {
+      display: none;
+    }
+  }
+}

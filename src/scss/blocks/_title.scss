@@ -3,12 +3,13 @@
 }
 .background {
   position: relative;
-  min-height: 100vh; /* Щоб фон займав всю висоту екрану */
+
+  min-height: 100vh;
   background: linear-gradient(
       180deg,
       rgba(1, 22, 39, 0),
-      rgb(1, 22, 39) 300.645%,
-      rgb(1, 22, 39) 70%
+      rgb(1, 22, 39) 95.645%,
+      rgb(1, 22, 39) 2000%
     ),
     url("/src/img/main/background.jpeg") no-repeat center center / cover fixed;
 
@@ -20,7 +21,7 @@
     padding-top: rem(120);
   }
   @include mobile {
-    padding-top: rem(80);
+    padding-top: rem(40);
   }
   &__body {
     display: flex;
@@ -34,6 +35,9 @@
     @include tablet {
       font-size: rem(80);
     }
+    @include mobile {
+      font-size: rem(40);
+    }
   }
 
   &__subtitle {
@@ -42,27 +46,36 @@
 
   &__description {
     padding-top: rem(50);
-    @include tablet {
-      padding-top: rem(20);
-    }
     display: flex;
     align-items: center;
     justify-content: center;
+    @include tablet {
+      padding-top: rem(20);
+    }
     @include mobile {
       font-size: rem(11);
     }
   }
 
   &__extra {
+    display: flex;
+    justify-content: space-between;
     padding-top: rem(200);
     @include laptop {
       padding-top: rem(120);
     }
     @include tablet {
       padding-top: rem(180);
+      justify-content: start;
     }
-    display: flex;
-    justify-content: space-between;
+  }
+  &__media {
+    @include tablet {
+      padding-left: rem(580);
+    }
+    @include mobile {
+      padding-left: rem(230);
+    }
   }
   &__scroll {
     position: relative;
@@ -78,7 +91,7 @@
       content: "";
       position: absolute;
       top: 6%;
-      left: -120%;
+      left: -140%;
       border-radius: rem(10);
       background-color: var(--color-blue-ligth);
       width: rem(70);

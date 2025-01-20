@@ -1,0 +1,80 @@
+@use "../helpers/index" as *;
+.people {
+  padding-top: rem(300);
+  @include tablet {
+    padding-top: rem(100);
+  }
+
+  background: linear-gradient(
+      0deg,
+      rgba(1, 22, 39, 0),
+      rgb(1, 22, 39) 90.645%,
+      rgb(1, 22, 39) 70%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(1, 22, 39, 0),
+      rgb(1, 22, 39) 80.645%,
+      rgb(1, 22, 39) 70%
+    ),
+    url("/src/img/main/people/jj-shev--ORi52De4F8-unsplash\ 2.png") no-repeat
+      center center / cover fixed;
+  background-color: rgb(125, 141, 153);
+
+  &__body {
+    border-top-left-radius: rem(20);
+    border-top-right-radius: rem(20);
+    background-color: var(--color-back);
+  }
+
+  &__top {
+    padding-top: rem(100);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: rem(30);
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+    font-weight: 700;
+  }
+
+  &__abouts {
+  }
+
+  &__soon {
+    position: relative;
+    padding-top: rem(150);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: rem(100);
+    &::after {
+      position: absolute;
+      top: 100%;
+      left: 48%;
+      background-color: var(--color-blue-ligth);
+      width: rem(50);
+      height: rem(2);
+      transform: rotate(90deg);
+      content: "";
+    }
+  }
+
+  &__soon-title {
+    font-size: fluid(80, 40);
+    font-weight: 800;
+    padding-bottom: rem(20);
+  }
+
+  &__soon-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

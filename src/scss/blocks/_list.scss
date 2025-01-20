@@ -5,6 +5,8 @@
   }
 
   &__link {
+    position: relative;
+    z-index: 2;
     color: var(--color-blue);
     @include hover {
       color: var(--color-ligth);
@@ -13,6 +15,11 @@
   }
 }
 .list-rotate {
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(20);
+}
+.list-rotate-y {
   display: flex;
   flex-direction: column;
   row-gap: rem(20);

@@ -4,6 +4,12 @@
   align-items: center;
   justify-content: space-between;
   column-gap: rem(30);
+
+  @include tablet {
+    column-gap: rem(10);
+  }
+  font-family: "Larsseit";
+  font-weight: 700;
   &__search {
     color: var(--color-ligth);
     @include hover {
@@ -12,5 +18,29 @@
   }
 
   &__button {
+    position: relative;
+    z-index: 200;
   }
+}
+
+.hidden-menu {
+  @include visually-hidden;
+}
+.visible-menu {
+  display: flex;
+  background-color: var(--color-blue-black);
+  inset: 0;
+  height: rem(1000);
+  width: rem(2500);
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  row-gap: rem(50);
+  padding-left: rem(600);
+  padding-top: rem(100);
+  overflow-y: hidden;
+}
+.menu-item-visible {
+  color: var(--color-ligth);
 }

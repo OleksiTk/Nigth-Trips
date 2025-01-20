@@ -1,5 +1,6 @@
 @use "../helpers/index" as *;
 .button {
+  cursor: pointer;
   color: var(--color-ligth);
   background-color: var(--color-blue-ligth);
   border: none;

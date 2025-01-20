@@ -6,12 +6,23 @@
   z-index: 10; /* Шапка буде поверх інших елементів */
   &__body {
     padding-top: rem(74);
+
+    @include tablet {
+      padding-top: rem(34);
+    }
+    @include mobile {
+      padding-top: rem(14);
+    }
   }
 
   &__body-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include tablet {
+      justify-content: start;
+    }
   }
 
   &__logo {
@@ -23,6 +34,16 @@
   }
 
   &__menu {
+    @include tablet {
+      padding-left: rem(700);
+    }
+
+    @include tablet {
+      padding-left: rem(560);
+    }
+    @include mobile {
+      padding-left: rem(230);
+    }
   }
 }
 .dot {

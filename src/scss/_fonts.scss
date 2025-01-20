@@ -1,6 +1,37 @@
 @font-face {
   font-family: "Playfair Display";
   src: url(/src/fonts/PlayfairDisplay-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url(/src/fonts/LarsseitBold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url(/src/fonts/LarsseitExtraBold.woff) format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url(/src/fonts/LarsseitLight.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Larsseit";
+  src: url(/src/fonts/LarsseitMedium.woff) format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;

@@ -38,7 +38,24 @@
                 />
               </svg>
             </a>
-            <button class="menu__button button button-large hidden-mobile">
+            <div class="menu__list hidden-menu" id="listMenu">
+              <div class="menu__item menu-item-visible">
+                <a href="" class="menu__link button button-large">HOME</a>
+              </div>
+              <div class="menu__item menu-item-visible">
+                <a href="" class="menu__link button button-large">PAGE</a>
+              </div>
+              <div class="menu__item menu-item-visible">
+                <a href="" class="menu__link button button-large">BLOG</a>
+              </div>
+              <div class="menu__item menu-item-visible">
+                <a href="" class="menu__link button button-large">TWITTER</a>
+              </div>
+            </div>
+            <button
+              class="menu__button button button-large hidden-mobile"
+              id="MenuButton"
+            >
               MENU
             </button>
             <button class="menu__button burger-menu visible-mobile">
@@ -72,8 +89,8 @@
           <div class="title__extra">
             <div class="title__scroll">SCROLL</div>
             <div class="title__media">
-              <ul class="list list-rotate">
-                <li class="list__item list-rotate">
+              <ul class="list list-rotate-y">
+                <li class="list__item list-rotate-y">
                   <a href="" class="list__link">
                     <svg
                       width="24.000000"
@@ -148,18 +165,1887 @@
         <span class="effect__line12"></span>
         <span class="effect__line13"></span>
       </div>
-      <!-- <section class="page">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-          dicta velit rerum, earum obcaecati, voluptatum odit facilis
-          voluptatibus rem magni culpa laudantium. Inventore ipsum aut tempora
-          odio deleniti laborum? Voluptas?
-        </p>
-      </section> -->
+      <section class="trip">
+        <div class="trip__background">
+          <div class="trip__background-img1">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 1141 1516"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.11" filter="url(#filter0_f_21_24)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M334.228 253.271C501.253 232.116 668.083 315.53 773.579 446.684C879.566 578.448 919.5 757.487 869.799 919.096C823.731 1068.89 681.319 1156.67 536.652 1217.07C403.601 1272.61 258.341 1286.25 125.698 1229.74C-15.4129 1169.62 -151.87 1064.75 -176.185 913.356C-199.386 768.907 -74.1526 658.474 15.3541 542.72C107.733 423.253 184.369 272.253 334.228 253.271Z"
+                  fill="#BE41EA"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_24"
+                  x="-429"
+                  y="0.000183105"
+                  width="1570"
+                  height="1516"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_24"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="trip__background-img2">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 1490 1848"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.07" filter="url(#filter0_f_21_8)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M501.627 254.34C723.13 226.272 944.374 336.944 1084.28 510.955C1224.84 685.775 1277.8 923.319 1211.88 1137.74C1150.79 1336.48 961.928 1452.95 770.075 1533.08C593.626 1606.77 400.988 1624.87 225.081 1549.89C37.944 1470.12 -143.021 1330.98 -175.267 1130.12C-206.035 938.47 -39.9548 791.951 78.7462 638.373C201.256 479.867 302.888 279.524 501.627 254.34Z"
+                  fill="#41EAD4"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_8"
+                  x="-429"
+                  y="0.00012207"
+                  width="1919"
+                  height="1848"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_8"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="trip__background-img3">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 488 945"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5" filter="url(#filter0_f_21_3)">
+                <path
+                  d="M359.829 464.637C439.019 396.502 384.572 293.802 347.45 250.969C801.093 370.435 552.763 459.371 566.914 594.311C581.064 729.251 312.751 706.554 268.88 650.586C225.009 594.619 260.842 549.806 359.829 464.637Z"
+                  fill="#41EAD4"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_3"
+                  x="0.408203"
+                  y="0.969116"
+                  width="871.757"
+                  height="943.634"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_3"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="trip__background-img4">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 544 726"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5" filter="url(#filter0_f_21_4)">
+                <path
+                  d="M306.249 358.493C346.407 323.941 318.797 271.862 299.972 250.141C530.017 310.723 404.088 355.823 411.263 424.252C418.439 492.68 282.376 481.171 260.128 452.789C237.881 424.408 256.052 401.683 306.249 358.493Z"
+                  fill="#7741EA"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_4"
+                  x="0.761353"
+                  y="0.140747"
+                  width="688.52"
+                  height="724.97"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_4"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="trip__background-img5">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 551 726"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.5" filter="url(#filter0_f_21_5)">
+                <path
+                  d="M167.249 358.493C207.407 323.941 179.797 271.862 160.972 250.141C391.017 310.723 265.088 355.823 272.263 424.252C279.439 492.68 143.376 481.171 121.128 452.789C98.881 424.408 117.052 401.683 167.249 358.493Z"
+                  fill="#7741EA"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_5"
+                  x="-138.239"
+                  y="0.140747"
+                  width="688.52"
+                  height="724.97"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_5"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="trip__background-img6">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 1490 1848"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.07" filter="url(#filter0_f_21_8)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M501.627 254.34C723.13 226.272 944.374 336.944 1084.28 510.955C1224.84 685.775 1277.8 923.319 1211.88 1137.74C1150.79 1336.48 961.928 1452.95 770.075 1533.08C593.626 1606.77 400.988 1624.87 225.081 1549.89C37.944 1470.12 -143.021 1330.98 -175.267 1130.12C-206.035 938.47 -39.9548 791.951 78.7462 638.373C201.256 479.867 302.888 279.524 501.627 254.34Z"
+                  fill="#41EAD4"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_8"
+                  x="-429"
+                  y="0.00012207"
+                  width="1919"
+                  height="1848"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_8"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="trip__background-img7">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 1112 1544"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.1" filter="url(#filter0_f_21_7)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M777.138 253.361C948.69 231.623 1120.04 317.336 1228.4 452.104C1337.26 587.5 1378.27 771.473 1327.22 937.535C1279.91 1091.46 1133.64 1181.66 985.048 1243.72C848.391 1300.79 699.194 1314.81 562.956 1256.74C418.021 1194.96 277.865 1087.2 252.891 931.638C229.062 783.207 357.689 669.731 449.622 550.787C544.504 428.027 623.217 272.866 777.138 253.361Z"
+                  fill="#7741EA"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_7"
+                  x="0"
+                  y="0"
+                  width="1599"
+                  height="1544"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_7"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+          <div class="trip__background-img8">
+            <svg
+              width="200"
+              height="200"
+              viewBox="0 0 1112 1544"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g opacity="0.1" filter="url(#filter0_f_21_7)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M777.138 253.361C948.69 231.623 1120.04 317.336 1228.4 452.104C1337.26 587.5 1378.27 771.473 1327.22 937.535C1279.91 1091.46 1133.64 1181.66 985.048 1243.72C848.391 1300.79 699.194 1314.81 562.956 1256.74C418.021 1194.96 277.865 1087.2 252.891 931.638C229.062 783.207 357.689 669.731 449.622 550.787C544.504 428.027 623.217 272.866 777.138 253.361Z"
+                  fill="#7741EA"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_21_7"
+                  x="0"
+                  y="0"
+                  width="1599"
+                  height="1544"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="125"
+                    result="effect1_foregroundBlur_21_7"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="trip__pick pick container">
+          <div class="pick__name">
+            <h2 class="pick__title">Pick your trip</h2>
+            <div class="pick__img">
+              <svg
+                width="24.000000"
+                height="24.000000"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs>
+                  <clipPath id="clip19_72">
+                    <rect
+                      id="x 1"
+                      width="24.000000"
+                      height="24.000000"
+                      fill="white"
+                      fill-opacity="0"
+                    />
+                  </clipPath>
+                </defs>
+                <rect
+                  id="x 1"
+                  width="24.000000"
+                  height="24.000000"
+                  fill="#FFFFFF"
+                  fill-opacity="0"
+                />
+                <g clip-path="url(#clip19_72)">
+                  <path
+                    id="Vector"
+                    d="M18 6L6 18"
+                    stroke="#41EAD4"
+                    stroke-opacity="1.000000"
+                    stroke-width="2.000000"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    id="Vector"
+                    d="M6 6L18 18"
+                    stroke="#41EAD4"
+                    stroke-opacity="1.000000"
+                    stroke-width="2.000000"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+            </div>
+            <p class="pick__subtitle">
+              Our team put together some trips to you to discover, <br />
+              feel free to discover each of them.
+            </p>
+          </div>
+          <div class="pick__choose">
+            <ul class="list list-page">
+              <li class="list__item list-page__item">
+                <a href="" class="list__link list-page__link is-choose">
+                  Chill Adventure
+                </a>
+                <a href="" class="list__link list-page__link"> Spooky Times </a>
+                <a href="" class="list__link list-page__link">
+                  Desert Madness
+                </a>
+                <a href="" class="list__link list-page__link">
+                  Out in the wild
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="trip__body chill container">
+          <div class="chill__side">
+            <div class="chill__side-postion">
+              <p class="chill__side-postion-number">01.</p>
+              <div class="chill__side-postion-title">
+                GRAND DUNES <br />
+                LANDSCAPE
+              </div>
+              <div class="chill__side-postion-decoration">
+                <svg
+                  width="130"
+                  height="130"
+                  viewBox="0 0 230 230"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="5" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="5" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="5" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="5" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="5" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="5" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="5" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="25" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="25" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="25" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="25" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="25" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="25" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="45" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="45" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="45" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="45" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="45" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="45" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="65" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="65" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="65" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="65" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="65" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="65" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="85" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="85" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="85" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="85" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="85" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="85" r="5" fill="#41EAD4" />
+                  <circle cx="5" cy="105" r="5" fill="#41EAD4" />
+                  <circle cx="25" cy="105" r="5" fill="#41EAD4" />
+                  <circle cx="45" cy="105" r="5" fill="#41EAD4" />
+                  <circle cx="65" cy="105" r="5" fill="#41EAD4" />
+                  <circle cx="85" cy="105" r="5" fill="#41EAD4" />
+                  <circle cx="105" cy="105" r="5" fill="#41EAD4" />
+                  <circle cx="125" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="145" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="165" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="185" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="205" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="225" cy="125" r="5" fill="#41EAD4" />
+                  <circle cx="125" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="145" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="165" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="185" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="205" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="225" cy="145" r="5" fill="#41EAD4" />
+                  <circle cx="125" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="145" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="165" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="185" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="205" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="225" cy="165" r="5" fill="#41EAD4" />
+                  <circle cx="125" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="145" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="165" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="185" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="205" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="225" cy="185" r="5" fill="#41EAD4" />
+                  <circle cx="125" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="145" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="165" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="185" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="205" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="225" cy="205" r="5" fill="#41EAD4" />
+                  <circle cx="125" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="145" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="165" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="185" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="205" cy="225" r="5" fill="#41EAD4" />
+                  <circle cx="225" cy="225" r="5" fill="#41EAD4" />
+                </svg>
+              </div>
+              <div class="chill__side-postion-img">
+                <img src="./src/img/main/trip/Image.jpeg" alt="" />
+                <a href="" class="arrow-left">
+                  <svg
+                    width="24.000000"
+                    height="24.000000"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs>
+                      <clipPath id="clip19_58">
+                        <rect
+                          id="arrow-down 1"
+                          width="24.000000"
+                          height="24.000000"
+                          transform="translate(24.000000 0.000000) rotate(90.000000)"
+                          fill="white"
+                          fill-opacity="0"
+                        />
+                      </clipPath>
+                    </defs>
+                    <rect
+                      id="arrow-down 1"
+                      width="24.000000"
+                      height="24.000000"
+                      transform="translate(24.000000 0.000000) rotate(90.000000)"
+                      fill="#FFFFFF"
+                      fill-opacity="0"
+                    />
+                    <g clip-path="url(#clip19_58)">
+                      <path
+                        id="Vector"
+                        d="M19 12L5 12"
+                        stroke="#FFFFFF"
+                        stroke-opacity="1.000000"
+                        stroke-width="2.000000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M12 19L5 12L12 5"
+                        stroke="#FFFFFF"
+                        stroke-opacity="1.000000"
+                        stroke-width="2.000000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                    </g>
+                  </svg>
+                </a>
+                <a href="" class="arrow-rigth">
+                  <svg
+                    width="24.000000"
+                    height="24.000000"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs>
+                      <clipPath id="clip19_61">
+                        <rect
+                          id="arrow-down 2"
+                          width="24.000000"
+                          height="24.000000"
+                          transform="matrix(4.37114e-08 1 1 -4.37114e-08 0 0)"
+                          fill="white"
+                          fill-opacity="0"
+                        />
+                      </clipPath>
+                    </defs>
+                    <rect
+                      id="arrow-down 2"
+                      width="24.000000"
+                      height="24.000000"
+                      transform="matrix(4.37114e-08 1 1 -4.37114e-08 0 0)"
+                      fill="#FFFFFF"
+                      fill-opacity="0"
+                    />
+                    <g clip-path="url(#clip19_61)">
+                      <path
+                        id="Vector"
+                        d="M5 12L19 12"
+                        stroke="#FFFFFF"
+                        stroke-opacity="1.000000"
+                        stroke-width="2.000000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M12 19L19 12L12 5"
+                        stroke="#FFFFFF"
+                        stroke-opacity="1.000000"
+                        stroke-width="2.000000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="chill__aside">
+            <div class="chill__aside-about about">
+              <div class="about__title">Chill Adventure</div>
+              <div class="about__subtitle">
+                Ornare vivamus molestie pellentesque nunc. Sed sapien erat
+                <br />
+                ultrices curabitur. Erat id fringilla arcu condimentum fames.
+              </div>
+              <p class="about__descripton">
+                Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum
+                <br />
+                rutrum sit ut sociis. Pellentesque neque orci adipiscing
+                pharetra <br />
+                lacus, dignissim pharetra ipsum blandit. Feugiat quis quam
+                <br />
+                consectetur lectus id quis tortor vel, mattis.
+              </p>
+              <div class="about__button button button-small">
+                SEE OUR LATEST OFFER
+              </div>
+            </div>
+
+            <div class="chill__aside-social">
+              <div class="chill__aside-social-text">SHARE IT:</div>
+              <ul class="list list-rotate list-one">
+                <li class="list__item list-one-item">
+                  <a href="" class="list__link list-one-link">
+                    <svg
+                      width="24.000000"
+                      height="19.943848"
+                      viewBox="0 0 24 19.9438"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <desc>Created with Pixso.</desc>
+                      <defs />
+                      <path
+                        id="Vector"
+                        d="M19.86 2.54C19.25 1.84 18.45 1.35 17.56 1.13C16.67 0.91 15.73 0.96 14.88 1.29C14.02 1.62 13.28 2.2 12.77 2.96C12.25 3.72 11.98 4.62 12 5.54L12 6.54C10.24 6.58 8.5 6.19 6.93 5.4C5.36 4.61 4.01 3.44 3 2.01C3 2.01 -1 11.01 8 15.01C5.94 16.4 3.48 17.1 1 17.01C10 22.01 21 17.01 21 5.51C20.99 5.23 20.97 4.95 20.92 4.68C21.94 3.67 22.66 2.4 23 1.01C22.04 1.68 20.98 2.2 19.86 2.54Z"
+                        stroke="#41EAD4"
+                        stroke-opacity="1.000000"
+                        stroke-width="2.000000"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="" class="list__link">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                        stroke="#41EAD4"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="" class="list__link">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23 2.99998C22.0424 3.67546 20.9821 4.19209 19.86 4.52999C19.2577 3.8375 18.4573 3.34668 17.567 3.12391C16.6767 2.90115 15.7395 2.95718 14.8821 3.28444C14.0247 3.6117 13.2884 4.19439 12.773 4.9537C12.2575 5.71302 11.9877 6.61232 12 7.52998V8.52998C10.2426 8.57555 8.50127 8.1858 6.93101 7.39543C5.36074 6.60506 4.01032 5.43862 3 3.99998C3 3.99998 -1 13 8 17C5.94053 18.398 3.48716 19.0989 1 19C10 24 21 19 21 7.49998C20.9991 7.22144 20.9723 6.94358 20.92 6.66999C21.9406 5.66348 22.6608 4.3927 23 2.99998V2.99998Z"
+                        stroke="#41EAD4"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="trip__extra about-us container">
+          <div class="about-us__side">
+            <div class="chill__aside-about about">
+              <div class="about__title">About Us</div>
+              <div class="about__subtitle">
+                We’re a team of four passioned people. <br />
+                We’re ready to take the world by storm and <br />
+                let you find new travel opportunities.
+              </div>
+              <p class="about__descripton">
+                Our everyday task is to make sure that you <br />
+                satisfied with the services and products <br />
+                that we provide. <br />
+                With 💖 from Amsterdam, Netherlands.
+              </p>
+              <div class="about__button button button-small">
+                READ MORE ABOUT US
+              </div>
+            </div>
+          </div>
+          <div class="about-us__aside">
+            <div class="about-us__name">
+              MARTIN JACK, <span class="about-us__name-blue">CEO</span>
+            </div>
+            <img
+              src="./src/img/main/trip/about-us/brooke-cagle-9YSL6k8Z69w-unsplash 2.jpg"
+              alt=""
+              class="about-us__img1"
+            />
+            <img
+              src="./src/img/main/trip/about-us/brooke-cagle-XLtWHLWuQPg-unsplash 2.png"
+              alt=""
+              class="about-us__img2"
+            />
+            <img
+              src="./src/img/main/trip/about-us/brooke-cagle-9YSL6k8Z69w-unsplash 2.jpg"
+              alt=""
+              class="about-us__img3"
+            />
+            <img
+              src="./src/img/main/trip/about-us/brooke-cagle-XLtWHLWuQPg-unsplash 2.png"
+              alt=""
+              class="about-us__img4"
+            />
+            <div class="about-us__decoration">
+              <svg
+                width="70"
+                height="470"
+                viewBox="0 0 70 470"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 120)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 120)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 120)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 120)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 140)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 140)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 140)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 140)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 160)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 160)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 160)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 160)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 180)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 180)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 180)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 180)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 200)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 200)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 200)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 200)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 220)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 220)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 220)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 220)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 0)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 0)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 0)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 0)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 20)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 20)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 20)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 20)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 40)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 40)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 40)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 40)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 60)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 60)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 60)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 60)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 80)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 80)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 80)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 80)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 100)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 100)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 100)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 100)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 240)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 240)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 240)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 240)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 260)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 260)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 260)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 260)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 280)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 280)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 280)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 280)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 300)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 300)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 300)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 300)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 320)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 320)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 320)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 320)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 340)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 340)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 340)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 340)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 360)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 360)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 360)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 360)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 380)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 380)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 380)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 380)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 400)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 400)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 400)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 400)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 420)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 420)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 420)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 420)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 440)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 440)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 440)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 440)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 70 460)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 50 460)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 30 460)"
+                  fill="#41EAD4"
+                />
+                <circle
+                  cx="5"
+                  cy="5"
+                  r="5"
+                  transform="matrix(-1 0 0 1 10 460)"
+                  fill="#41EAD4"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="people">
+        <div class="people__body container">
+          <div class="people__top">
+            <h1 class="people__title">People’s thoughts</h1>
+            <div class="people__subtitle">SEE WHAT ARE OTHERS SAYING</div>
+          </div>
+          <div class="people__abouts">
+            <ul class="list card">
+              <li class="card__item">
+                <div class="card__decotration">
+                  <svg
+                    width="32"
+                    height="25"
+                    viewBox="0 0 32 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7108 0L31.8072 0.191574C29.8795 1.21328 28.3052 2.71392 27.0843 4.69349C25.8635 6.6092 25.253 8.62069 25.253 10.728C25.253 11.0473 25.2851 11.3027 25.3494 11.4943C25.4779 11.622 25.6064 11.7497 25.7349 11.8774C25.9277 11.9413 26.1847 12.0051 26.506 12.069C28.1767 12.3244 29.494 13.0588 30.4578 14.272C31.4859 15.4215 32 16.8263 32 18.4866C32 20.3384 31.3574 21.9029 30.0723 23.1801C28.7872 24.3934 27.1807 25 25.253 25C23.0683 25 21.3012 24.2656 19.9518 22.7969C18.6024 21.3282 17.9277 19.3806 17.9277 16.954C17.9277 13.1226 19.2129 9.57855 21.7831 6.32184C24.3534 3.06514 27.6627 0.957857 31.7108 0ZM13.7831 0L13.8795 0.191574C11.9518 1.21328 10.3775 2.71392 9.15663 4.69349C7.93574 6.6092 7.3253 8.62069 7.3253 10.728C7.3253 11.0473 7.35743 11.3027 7.42169 11.4943C7.5502 11.622 7.67871 11.7497 7.80723 11.8774C8 11.9413 8.25703 12.0051 8.57831 12.069C10.249 12.3244 11.5663 13.0588 12.5301 14.272C13.5582 15.4215 14.0723 16.8263 14.0723 18.4866C14.0723 20.3384 13.4297 21.9029 12.1446 23.1801C10.8594 24.3934 9.25301 25 7.3253 25C5.14056 25 3.37349 24.2656 2.0241 22.7969C0.674699 21.3282 0 19.3806 0 16.954C0 13.1226 1.28514 9.57855 3.85542 6.32184C6.4257 3.06514 9.73494 0.957857 13.7831 0Z"
+                      fill="#41EAD4"
+                    />
+                  </svg>
+                </div>
+                <div class="card__title">
+                  Elementum mi felis, sit velit lobortis ultricies non. Mattis
+                  enim, nisl
+                </div>
+                <div class="card__subtitle">
+                  adipiscing natoque diam et. Cum posuere in velit massa
+                  sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed
+                  imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                </div>
+                <div class="card__photos">
+                  <div class="card__photos-img">
+                    <img
+                      src="./src/img/main/people/card/Mask Group.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__photos-postion">
+                    <div class="card__photos-name">Judy ROSELESS</div>
+                    <div class="card__photos-work">MARKETING HEAD at ROM.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="card__item">
+                <div class="card__decotration">
+                  <svg
+                    width="32"
+                    height="25"
+                    viewBox="0 0 32 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7108 0L31.8072 0.191574C29.8795 1.21328 28.3052 2.71392 27.0843 4.69349C25.8635 6.6092 25.253 8.62069 25.253 10.728C25.253 11.0473 25.2851 11.3027 25.3494 11.4943C25.4779 11.622 25.6064 11.7497 25.7349 11.8774C25.9277 11.9413 26.1847 12.0051 26.506 12.069C28.1767 12.3244 29.494 13.0588 30.4578 14.272C31.4859 15.4215 32 16.8263 32 18.4866C32 20.3384 31.3574 21.9029 30.0723 23.1801C28.7872 24.3934 27.1807 25 25.253 25C23.0683 25 21.3012 24.2656 19.9518 22.7969C18.6024 21.3282 17.9277 19.3806 17.9277 16.954C17.9277 13.1226 19.2129 9.57855 21.7831 6.32184C24.3534 3.06514 27.6627 0.957857 31.7108 0ZM13.7831 0L13.8795 0.191574C11.9518 1.21328 10.3775 2.71392 9.15663 4.69349C7.93574 6.6092 7.3253 8.62069 7.3253 10.728C7.3253 11.0473 7.35743 11.3027 7.42169 11.4943C7.5502 11.622 7.67871 11.7497 7.80723 11.8774C8 11.9413 8.25703 12.0051 8.57831 12.069C10.249 12.3244 11.5663 13.0588 12.5301 14.272C13.5582 15.4215 14.0723 16.8263 14.0723 18.4866C14.0723 20.3384 13.4297 21.9029 12.1446 23.1801C10.8594 24.3934 9.25301 25 7.3253 25C5.14056 25 3.37349 24.2656 2.0241 22.7969C0.674699 21.3282 0 19.3806 0 16.954C0 13.1226 1.28514 9.57855 3.85542 6.32184C6.4257 3.06514 9.73494 0.957857 13.7831 0Z"
+                      fill="#41EAD4"
+                    />
+                  </svg>
+                </div>
+                <div class="card__title">
+                  Elementum mi felis, sit velit lobortis ultricies non. Mattis
+                  enim, nisl
+                </div>
+                <div class="card__subtitle">
+                  adipiscing natoque diam et. Cum posuere in velit massa
+                  sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed
+                  imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                </div>
+                <div class="card__photos">
+                  <div class="card__photos-img">
+                    <img
+                      src="./src/img/main/people/card/Mask Group.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__photos-postion">
+                    <div class="card__photos-name">Judy ROSELESS</div>
+                    <div class="card__photos-work">MARKETING HEAD at ROM.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="card__item">
+                <div class="card__decotration">
+                  <svg
+                    width="32"
+                    height="25"
+                    viewBox="0 0 32 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7108 0L31.8072 0.191574C29.8795 1.21328 28.3052 2.71392 27.0843 4.69349C25.8635 6.6092 25.253 8.62069 25.253 10.728C25.253 11.0473 25.2851 11.3027 25.3494 11.4943C25.4779 11.622 25.6064 11.7497 25.7349 11.8774C25.9277 11.9413 26.1847 12.0051 26.506 12.069C28.1767 12.3244 29.494 13.0588 30.4578 14.272C31.4859 15.4215 32 16.8263 32 18.4866C32 20.3384 31.3574 21.9029 30.0723 23.1801C28.7872 24.3934 27.1807 25 25.253 25C23.0683 25 21.3012 24.2656 19.9518 22.7969C18.6024 21.3282 17.9277 19.3806 17.9277 16.954C17.9277 13.1226 19.2129 9.57855 21.7831 6.32184C24.3534 3.06514 27.6627 0.957857 31.7108 0ZM13.7831 0L13.8795 0.191574C11.9518 1.21328 10.3775 2.71392 9.15663 4.69349C7.93574 6.6092 7.3253 8.62069 7.3253 10.728C7.3253 11.0473 7.35743 11.3027 7.42169 11.4943C7.5502 11.622 7.67871 11.7497 7.80723 11.8774C8 11.9413 8.25703 12.0051 8.57831 12.069C10.249 12.3244 11.5663 13.0588 12.5301 14.272C13.5582 15.4215 14.0723 16.8263 14.0723 18.4866C14.0723 20.3384 13.4297 21.9029 12.1446 23.1801C10.8594 24.3934 9.25301 25 7.3253 25C5.14056 25 3.37349 24.2656 2.0241 22.7969C0.674699 21.3282 0 19.3806 0 16.954C0 13.1226 1.28514 9.57855 3.85542 6.32184C6.4257 3.06514 9.73494 0.957857 13.7831 0Z"
+                      fill="#41EAD4"
+                    />
+                  </svg>
+                </div>
+                <div class="card__title">
+                  Elementum mi felis, sit velit lobortis ultricies non. Mattis
+                  enim, nisl
+                </div>
+                <div class="card__subtitle">
+                  adipiscing natoque diam et. Cum posuere in velit massa
+                  sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed
+                  imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                </div>
+                <div class="card__photos">
+                  <div class="card__photos-img">
+                    <img
+                      src="./src/img/main/people/card/Mask Group.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__photos-postion">
+                    <div class="card__photos-name">Judy ROSELESS</div>
+                    <div class="card__photos-work">MARKETING HEAD at ROM.</div>
+                  </div>
+                </div>
+              </li>
+              <li class="card__item">
+                <div class="card__decotration">
+                  <svg
+                    width="32"
+                    height="25"
+                    viewBox="0 0 32 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.7108 0L31.8072 0.191574C29.8795 1.21328 28.3052 2.71392 27.0843 4.69349C25.8635 6.6092 25.253 8.62069 25.253 10.728C25.253 11.0473 25.2851 11.3027 25.3494 11.4943C25.4779 11.622 25.6064 11.7497 25.7349 11.8774C25.9277 11.9413 26.1847 12.0051 26.506 12.069C28.1767 12.3244 29.494 13.0588 30.4578 14.272C31.4859 15.4215 32 16.8263 32 18.4866C32 20.3384 31.3574 21.9029 30.0723 23.1801C28.7872 24.3934 27.1807 25 25.253 25C23.0683 25 21.3012 24.2656 19.9518 22.7969C18.6024 21.3282 17.9277 19.3806 17.9277 16.954C17.9277 13.1226 19.2129 9.57855 21.7831 6.32184C24.3534 3.06514 27.6627 0.957857 31.7108 0ZM13.7831 0L13.8795 0.191574C11.9518 1.21328 10.3775 2.71392 9.15663 4.69349C7.93574 6.6092 7.3253 8.62069 7.3253 10.728C7.3253 11.0473 7.35743 11.3027 7.42169 11.4943C7.5502 11.622 7.67871 11.7497 7.80723 11.8774C8 11.9413 8.25703 12.0051 8.57831 12.069C10.249 12.3244 11.5663 13.0588 12.5301 14.272C13.5582 15.4215 14.0723 16.8263 14.0723 18.4866C14.0723 20.3384 13.4297 21.9029 12.1446 23.1801C10.8594 24.3934 9.25301 25 7.3253 25C5.14056 25 3.37349 24.2656 2.0241 22.7969C0.674699 21.3282 0 19.3806 0 16.954C0 13.1226 1.28514 9.57855 3.85542 6.32184C6.4257 3.06514 9.73494 0.957857 13.7831 0Z"
+                      fill="#41EAD4"
+                    />
+                  </svg>
+                </div>
+                <div class="card__title">
+                  Elementum mi felis, sit velit lobortis ultricies non. Mattis
+                  enim, nisl
+                </div>
+                <div class="card__subtitle">
+                  adipiscing natoque diam et. Cum posuere in velit massa
+                  sagittis augue egestas. Eu sollicitudin et quam eu. Nunc, sed
+                  imperdiet blandit morbi. Maecenas lobortis tristique rutrum.
+                </div>
+                <div class="card__photos">
+                  <div class="card__photos-img">
+                    <img
+                      src="./src/img/main/people/card/Mask Group.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__photos-postion">
+                    <div class="card__photos-name">Judy ROSELESS</div>
+                    <div class="card__photos-work">MARKETING HEAD at ROM.</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="people__soon">
+            <div class="people__soon-title">See you soon!</div>
+            <div class="people__soon-subtitle">
+              We hope to meet each other very soon.
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-      <p>1</p>
-      lorem10000
+    <footer class="footer">
+      <div class="footer__body container">
+        <ul class="list contats">
+          <li class="contacts__item">
+            <div class="contacts__title">About</div>
+            <div class="contats__decoration">
+              <svg
+                width="56.121231"
+                height="7.071289"
+                viewBox="0 0 56.1212 7.07129"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <rect
+                  id="Rectangle"
+                  y="3.000000"
+                  rx="0.500000"
+                  width="50.000000"
+                  height="1.000000"
+                  fill="#41EAD4"
+                  fill-opacity="1.000000"
+                />
+                <rect
+                  id="Rectangle 2"
+                  x="52.585693"
+                  y="0.707031"
+                  width="4.000000"
+                  height="4.000000"
+                  transform="rotate(45 52.585693 0.707031)"
+                  stroke="#41EAD4"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.000000"
+                />
+              </svg>
+            </div>
+            <a href="" class="contats__link">Our Mission</a>
+            <a href="" class="contats__link">Terms</a>
+            <a href="" class="contats__link">Copyrights</a>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__title">FAQ</div>
+            <div class="contats__decoration">
+              <svg
+                width="56.121231"
+                height="7.071289"
+                viewBox="0 0 56.1212 7.07129"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <rect
+                  id="Rectangle"
+                  y="3.000000"
+                  rx="0.500000"
+                  width="50.000000"
+                  height="1.000000"
+                  fill="#41EAD4"
+                  fill-opacity="1.000000"
+                />
+                <rect
+                  id="Rectangle 2"
+                  x="52.585693"
+                  y="0.707031"
+                  width="4.000000"
+                  height="4.000000"
+                  transform="rotate(45 52.585693 0.707031)"
+                  stroke="#41EAD4"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.000000"
+                />
+              </svg>
+            </div>
+            <a href="" class="contats__link">Rules</a>
+            <a href="" class="contats__link">Tickets</a>
+            <a href="" class="contats__link">Editions</a>
+            <a href="" class="contats__link">Contribute</a>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__title">Events</div>
+            <div class="contats__decoration">
+              <svg
+                width="56.121231"
+                height="7.071289"
+                viewBox="0 0 56.1212 7.07129"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <rect
+                  id="Rectangle"
+                  y="3.000000"
+                  rx="0.500000"
+                  width="50.000000"
+                  height="1.000000"
+                  fill="#41EAD4"
+                  fill-opacity="1.000000"
+                />
+                <rect
+                  id="Rectangle 2"
+                  x="52.585693"
+                  y="0.707031"
+                  width="4.000000"
+                  height="4.000000"
+                  transform="rotate(45 52.585693 0.707031)"
+                  stroke="#41EAD4"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.000000"
+                />
+              </svg>
+            </div>
+            <a href="" class="contats__link">Star Gazing</a>
+            <a href="" class="contats__link">Desert Mania</a>
+            <a href="" class="contats__link">Dunes Madness</a>
+            <a href="" class="contats__link">Spooky Land</a>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__title">Contact us</div>
+            <div class="contats__decoration">
+              <svg
+                width="56.121231"
+                height="7.071289"
+                viewBox="0 0 56.1212 7.07129"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <rect
+                  id="Rectangle"
+                  y="3.000000"
+                  rx="0.500000"
+                  width="50.000000"
+                  height="1.000000"
+                  fill="#41EAD4"
+                  fill-opacity="1.000000"
+                />
+                <rect
+                  id="Rectangle 2"
+                  x="52.585693"
+                  y="0.707031"
+                  width="4.000000"
+                  height="4.000000"
+                  transform="rotate(45 52.585693 0.707031)"
+                  stroke="#41EAD4"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.000000"
+                />
+              </svg>
+            </div>
+            <a href="" class="contats__link">hello@example.com</a>
+            <a href="" class="contats__link">T(405) 555-0128</a>
+            <a href="" class="contats__link">(252) 555-0126</a>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__title">Follow us</div>
+            <div class="contats__decoration">
+              <svg
+                width="56.121231"
+                height="7.071289"
+                viewBox="0 0 56.1212 7.07129"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <rect
+                  id="Rectangle"
+                  y="3.000000"
+                  rx="0.500000"
+                  width="50.000000"
+                  height="1.000000"
+                  fill="#41EAD4"
+                  fill-opacity="1.000000"
+                />
+                <rect
+                  id="Rectangle 2"
+                  x="52.585693"
+                  y="0.707031"
+                  width="4.000000"
+                  height="4.000000"
+                  transform="rotate(45 52.585693 0.707031)"
+                  stroke="#41EAD4"
+                  stroke-opacity="1.000000"
+                  stroke-width="1.000000"
+                />
+              </svg>
+            </div>
+            <ul class="list list-rotate">
+              <li class="list__item list-rotate">
+                <a href="" class="list__link">
+                  <svg
+                    width="24.000000"
+                    height="19.943848"
+                    viewBox="0 0 24 19.9438"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs />
+                    <path
+                      id="Vector"
+                      d="M19.86 2.54C19.25 1.84 18.45 1.35 17.56 1.13C16.67 0.91 15.73 0.96 14.88 1.29C14.02 1.62 13.28 2.2 12.77 2.96C12.25 3.72 11.98 4.62 12 5.54L12 6.54C10.24 6.58 8.5 6.19 6.93 5.4C5.36 4.61 4.01 3.44 3 2.01C3 2.01 -1 11.01 8 15.01C5.94 16.4 3.48 17.1 1 17.01C10 22.01 21 17.01 21 5.51C20.99 5.23 20.97 4.95 20.92 4.68C21.94 3.67 22.66 2.4 23 1.01C22.04 1.68 20.98 2.2 19.86 2.54Z"
+                      stroke="#41EAD4"
+                      stroke-opacity="1.000000"
+                      stroke-width="2.000000"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="" class="list__link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                      stroke="#41EAD4"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+                <a href="" class="list__link">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23 2.99998C22.0424 3.67546 20.9821 4.19209 19.86 4.52999C19.2577 3.8375 18.4573 3.34668 17.567 3.12391C16.6767 2.90115 15.7395 2.95718 14.8821 3.28444C14.0247 3.6117 13.2884 4.19439 12.773 4.9537C12.2575 5.71302 11.9877 6.61232 12 7.52998V8.52998C10.2426 8.57555 8.50127 8.1858 6.93101 7.39543C5.36074 6.60506 4.01032 5.43862 3 3.99998C3 3.99998 -1 13 8 17C5.94053 18.398 3.48716 19.0989 1 19C10 24 21 19 21 7.49998C20.9991 7.22144 20.9723 6.94358 20.92 6.66999C21.9406 5.66348 22.6608 4.3927 23 2.99998V2.99998Z"
+                      stroke="#41EAD4"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="footer__copyrigth">
+          Copyright © Night Trips 2019. All rights reserved.
+          <a href="/" class="footer__logo h3">
+            NT<span class="dot__blue">.</span>
+          </a>
+        </div>
+      </div>
     </footer>
   </body>
   <script type="module" src="./src/js/main.js"></script>

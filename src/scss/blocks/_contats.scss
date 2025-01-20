@@ -1,0 +1,43 @@
+@use "../helpers/index" as *;
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-weight: 800;
+  }
+}
+.contats {
+  display: flex;
+  justify-content: center;
+  column-gap: fluid(120, 60);
+
+  @include tablet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: rem(20);
+  }
+  @include mobile {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &__decoration {
+    color: var(--color-blue-ligth);
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    padding-top: rem(10);
+    color: var(--color-ligth);
+
+    @include hover {
+      color: var(--color-blue-ligth);
+    }
+  }
+}

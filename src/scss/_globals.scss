@@ -2,10 +2,17 @@
 
 body {
   color: var(--color-ligth);
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  font-family: "Larsseit";
+
+  &:has(.visible-menu) {
+    overflow-y: hidden;
+  }
 }
 main {
-  height: 100vh;
-  flex-grow: 1;
+  flex: 1; /* Розтягує блок на всю доступну висоту */
 }
 a,
 button,
